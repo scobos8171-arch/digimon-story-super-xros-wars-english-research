@@ -1,0 +1,63 @@
+SUPER XROS WARS BLUE — MANUAL UI LOCALIZATION GUIDE
+====================================================
+
+RULES FOR EVERY PNG
+- Keep the exact original width and height.
+- Use hard pixels only: no blur, smoothing, gradients, or anti-aliasing.
+- Preserve transparency and the original frame/border.
+- Prefer the existing palette. Do not resize the canvas.
+- Save as PNG. Keep the original filename so injection can match entry/cell IDs.
+
+CONFIRMED TRANSLATIONS
+----------------------
+
+TITLE SCREEN
+Japanese title: デジモンストーリー 超クロスウォーズ ブルー
+Official-style English: DIGIMON STORY: SUPER XROS WARS BLUE
+
+ぼうけんを はじめる
+Recommended UI: BEGIN ADVENTURE
+Literal meaning: Begin the adventure
+
+Do not translate or remove the copyright line.
+
+MAIN MENU / COMMAND RING
+ステータス = STATUS
+わざ = SKILLS
+そうび = EQUIP
+たいれつ = FORMATION (use PARTY if FORMATION does not fit)
+もちもの = ITEMS
+マップ = MAP
+じょうほう = INFO
+もどる = BACK
+
+Instruction line:
+十字ボタンでこうもくをえらびAボタンをおしてけっていしてください。
+Recommended: SELECT WITH THE D-PAD. PRESS A TO CONFIRM.
+
+BATTLE UI
+もどる = BACK
+バトルスタート = BATTLE START
+ALLさくせん = ALL TACTICS
+
+KNOWN EXTRACTED CELLS
+entry 0127 / cell 00 = TAKE (already English; do not redo unless cleaning it)
+entry 0127 / cell 01 = RAISE
+entry 0127 / cell 02 = TEACH
+entry 0127 / cell 03 = NG (already English)
+entry 0127 / cell 04 = GOOD (already English)
+entry 0127 / cell 07 = GET (already English)
+
+entry 2231 / cell 14 = BACK
+entry 2231 / cell 16 = CONFIRM
+
+QUALITY / CONFIDENCE
+- All translations above are high confidence.
+- FORMATION is the most accurate menu localization for たいれつ; PARTY is the shorter UI alternative.
+- Files not identified in this guide remain in the package intentionally. Put the intended English wording in the batch note or preserve the Japanese source until it is identified. Do not guess.
+
+WHEN FINISHED
+1. Keep every edited PNG in its original entry folder.
+2. Do not rename entry folders or cell filenames.
+3. Return the entire folder or ZIP.
+4. The developer will validate dimensions, transparency, palette conversion, and injection before producing a ROM.

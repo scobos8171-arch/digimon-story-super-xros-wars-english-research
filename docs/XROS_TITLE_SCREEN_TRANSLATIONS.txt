@@ -1,0 +1,42 @@
+SUPER XROS WARS BLUE — TITLE SCREEN MANUAL EDIT GUIDE
+=====================================================
+
+ENTRY 0034 — BLUE VERSION LOGO
+Japanese: デジモンストーリー 超クロスウォーズ ブルー
+Recommended title:
+  DIGIMON STORY
+  SUPER XROS WARS
+  BLUE
+
+Keep the existing logo silhouette, metallic shading, cyan outline, orange cross,
+and BLUE emblem. Replace lettering only. Do not resize the 206x142 visible crop.
+
+ENTRY 0038 — TITLE MENU (animation/highlight states)
+cell 00: ぼうけんを はじめる = BEGIN ADVENTURE
+cell 01: three-row state:
+  つづきから はじめる = CONTINUE
+  はじめから やりなおす = NEW GAME
+  リロードチャレンジ = RELOAD CHALLENGE
+cell 02: same three labels; different highlighted row
+cell 03: same three labels; different highlighted row
+cell 04: ぼうけんを はじめる = BEGIN ADVENTURE
+
+Preserve yellow/cyan selection colors independently in every state.
+
+ENTRY 0039 — RED COPYRIGHT STRIP
+ENTRY 0040 — BLUE COPYRIGHT STRIP
+Japanese:
+  ©本郷あきよし・東映アニメーション・テレビ朝日・電通
+  ©2011 NBGI
+Accurate Romanized localization:
+  © Akiyoshi Hongo, Toei Animation, TV Asahi, Dentsu
+  © 2011 NBGI
+
+Copyright text is legally identifying information. Preserve all names and the
+year exactly; only romanize the Japanese names if the line fits cleanly.
+
+TECHNICAL RULES
+- Edit the native `cell_##_source.png`, not the 3x contact sheet.
+- Keep every image's exact dimensions and transparency.
+- Hard pixels only; no anti-aliasing or resizing.
+- Keep filenames and entry folders unchanged.

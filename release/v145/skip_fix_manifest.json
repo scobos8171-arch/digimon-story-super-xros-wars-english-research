@@ -1,0 +1,16 @@
+{
+  "source": "C:\\Users\\YOUR_NAME\\Documents\\Codex\\2026-07-24\\c-users-scobo-downloads-download-digimon\\outputs\\Xros Evolution Complete US v142 V141 BOTH TAIKI SHOUTS\\Game\\Digimon Story Xros Evolution - COMPLETE US v142 V141 BOTH TAIKI SHOUTS.nds",
+  "output": "C:\\Users\\YOUR_NAME\\Documents\\Codex\\2026-07-24\\c-users-scobo-downloads-download-digimon\\outputs\\Xros Evolution Complete US v144 V142 SAFE SKIP FIX\\Game\\Digimon Story Xros Evolution - COMPLETE US v144 V142 SAFE SKIP FIX.nds",
+  "artist_png": "C:\\Users\\YOUR_NAME\\Documents\\Codex\\2026-07-24\\c-users-scobo-downloads-download-digimon\\outputs\\Xros Tutorial Transparent English Buttons\\V133 TRANSPARENT ENGLISH BUTTONS\\SKIP_RED.png",
+  "source_sha256": "38dd7e53b07e5d0b0927448eb20a50061ee6e43edeb5a436942099b7c0b051c5",
+  "output_sha256": "0453931b1a60dd82b7e4a1a247d6ab6e5ec3c44c570875a53d4389a74b4360df",
+  "changed_archives": [
+    "SPR_NCGR.PAK"
+  ],
+  "changed_sprite_entries": [
+    2002
+  ],
+  "changed_cell": "2002:2",
+  "arm9_unchanged": true,
+  "rom_decode_matches_artist_png": true
+}
