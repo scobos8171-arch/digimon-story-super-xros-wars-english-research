@@ -22,6 +22,9 @@ Reproducibility hashes:
 The distributable binary patch and cross-platform patch instructions will live
 under `release/v145/`. The complete ROM is intentionally excluded.
 
+New contributors should start with the [v145 final-layer build guide](docs/V145_FINAL_LAYER_BUILD.md)
+and the [screen-by-screen localization status map](research/LOCALIZATION_STATUS.md).
+
 ## How to help
 
 Pick a workstream:
@@ -72,4 +75,3 @@ BIOS/firmware, decrypted proprietary binaries, or bulk extracted game assets.
 ## Credits
 
 Project direction and localization: **scobos8171-arch** and contributors.
-
