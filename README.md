@@ -52,6 +52,7 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting work.
 - `tools/nds_decompiler/` — save-state extraction and runtime analysis.
 - `tools/rom_importer/` — Nitro format and archive inspection tools.
 - `tools/recovery/` — Xros-specific localization, graphics, and recovery scripts.
+- `third_party/Romsstar_XrosWars_ASM/` — pinned upstream ARM9 VWF patch source.
 - `research/` — community-maintained evidence tables and progress tracking.
 - `release/` — patch metadata and legal binary-patch releases; never full ROMs.
 
@@ -81,3 +82,7 @@ Project direction and localization: **scobos8171-arch** and contributors.
 
 Art/localization contribution credit: **SoraLeon**, for collaboration,
 localization assistance, and the v147 Battle Results header artwork.
+
+VWF patch source: **Romsstar** ([XrosWars_ASM](https://github.com/Romsstar/XrosWars_ASM)),
+which credits the original Lost Evolution routine to **SydMontague**. See the
+[VWF integration guide](docs/ROMSSTAR_VWF_INTEGRATION.md) before using it.
