@@ -10,14 +10,17 @@ or extracted copyrighted game assets.
 
 ## Current milestone
 
-The current private test build is **v145**. It combines the stable v142 base,
+The current private test build is **v147**. It combines the stable v142 base,
 boot-safe moving menu text, both localized Taiki cut-ins, the corrected SKIP
-button, and the artist-updated command buttons.
+button, artist-updated command buttons, and the artist-redrawn Battle Results
+header.
 
 Reproducibility hashes:
 
 - Required clean Blue ROM SHA-256: `73A5C90ED2D507A337152D73620C235D8331B4ACC0E8AA6E2CB99D62E81F49FB`
 - Expected v145 SHA-256: `A1E41504B6EBCD483EACEA36C0E035AA105B80BBB19668F4FF3E4D57BE14D97F`
+- v147 is a private test build based on v145. Its source graphic is documented
+  in [the v147 Battle Results contribution](assets/contributions/SoraLeon/battle-results-header/README.md).
 
 The distributable binary patch and cross-platform patch instructions will live
 under `release/v145/`. The complete ROM is intentionally excluded.
@@ -75,3 +78,6 @@ BIOS/firmware, decrypted proprietary binaries, or bulk extracted game assets.
 ## Credits
 
 Project direction and localization: **scobos8171-arch** and contributors.
+
+Art/localization contribution credit: **SoraLeon**, for collaboration,
+localization assistance, and the v147 Battle Results header artwork.
